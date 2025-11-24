@@ -7,7 +7,7 @@
 ": <at180341@actvn.edu.vn> <qh6967258@gmail.com>"
 ```
     
-- Form = String + <email spoofing> + Inject String + <real email>
+- Form = String + email spoofing + Inject String + real email
 - String và inject String có thể là bất cứ thứ gì như kí tự, khoảng trắng, chữ ,số, … nhưng bắt buộc phải có
 - email spoofing có thể bất kỳ email nào (kể cả email không tồn tại)
 - real email bắt buộc phải là email gốc của attacker gửi
@@ -47,4 +47,5 @@ message["from"] = message["From"] = message["FROM"] = message["fRoM"]
             background: #FFFFFF;
 ...
     </style>
+
 ```
